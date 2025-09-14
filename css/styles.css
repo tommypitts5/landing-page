@@ -7,3 +7,79 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.header-container {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    border: 2px solid purple;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.header-links {
+    border: 2px solid orange;
+    display: flex;
+    width: 50%;
+    gap: 1em;
+    justify-content: flex-end;
+}
+
+.hero {
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 50%;
+    border: 2px solid salmon;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a:link {
+   text-decoration: none; 
+}
+
+a:visited {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header-link, .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-information {
+    display: flex;
+    border: 2px solid pink;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hero-image {
+    display: flex;
+    border: 2px solid lightblue;
+    justify-content: flex-end;
+    width: 50%;
+    
+}
+
+.header-image {
+    display: flex;
+}
