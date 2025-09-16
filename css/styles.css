@@ -189,3 +189,12 @@ button {
 .signup-text h6 {
     font-size: 24px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 75px;
+    align-items: center;
+}
