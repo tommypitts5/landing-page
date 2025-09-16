@@ -146,14 +146,46 @@ button {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin: 0 150px;
+    margin: 0 200px;
 }
 
 .signature {
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
-    margin: 0 150px;
+    margin: 0 200px;
+}
+
+.signup-section {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 100px;
+    width: 75%;
+    
+}
+
+.signup-container button {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.signup-text h6 {
+    font-size: 24px;
 }
